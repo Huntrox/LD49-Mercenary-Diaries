@@ -1,0 +1,372 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da806d4bd53474a44bc9141f276b5877, type: 3}
+  m_Name: Database
+  m_EditorClassIdentifier: 
+  items:
+  - itemName: Adrenaline Syringe
+    itemDescription: 5 Health
+    itemValue: 200
+    icon: {fileID: 21300000, guid: 1c02ac8660aec914291d8e18a65a4da3, type: 3}
+    demandID: 
+    demandFrequency: 0
+    health: 5
+    ms: 0
+  - itemName: Pain meds
+    itemDescription: '1 Health
+
+      1 Mental Stability'
+    itemValue: 50
+    icon: {fileID: 21300000, guid: b6d2663ebc39fec41893ab7bd2553233, type: 3}
+    demandID: 
+    demandFrequency: 0
+    health: 1
+    ms: 1
+  - itemName: Happy pills
+    itemDescription: 3 Mental Stability
+    itemValue: 200
+    icon: {fileID: 21300000, guid: 5f3d92f1a93aeb748b1b384782b9b907, type: 3}
+    demandID: 
+    demandFrequency: 0
+    health: 0
+    ms: 5
+  - itemName: 100$
+    itemDescription: 2 Mental Stability
+    itemValue: 100
+    icon: {fileID: 21300000, guid: 0e153d8609174ef4dbcf3e71cb5b8f16, type: 3}
+    demandID: 
+    demandFrequency: 0
+    health: 0
+    ms: 2
+  - itemName: Cigarrets
+    itemDescription: 3 Mental Stability
+    itemValue: 150
+    icon: {fileID: 21300000, guid: 124a5621eb41ed94b814a7d564c46d12, type: 3}
+    demandID: 
+    demandFrequency: 0
+    health: 0
+    ms: 3
+  structures: []
+  presets:
+  - Destroy #name#'s #building# in #location#,
+  - Kidnap #name#'s daughter and bring her to #location#,
+  - Kill #name# and their partners,
+  - Inflitrate #building# in #location# and assassinate #name#,
+  - Gather information about #name#'s illegal deals from #building#'s guards in #location#
+  - Assault #name#'s safe house in #location#
+  - 'Interrogate #name# and find about his boss'' location '
+  - Demolish the secret shed located outside of #location# and destoy all evidence
+  - Liberate #name# from #building#'s prison located in #location#
+  names:
+  - 'Allen Dunlop '
+  - 'Hanan Frame '
+  - 'Xanthe Felix '
+  - 'Elicia Lugo '
+  - 'Troy Ellis '
+  - 'Ridwan Mcphee '
+  - 'Maksim Gillespie '
+  - 'Kieran Daly '
+  - 'Jia Collier '
+  - 'Laith Yu '
+  - 'River O''Brien '
+  - 'Marlon Beech '
+  - 'Enrique Grimes '
+  - 'Rafferty Greenaway '
+  - 'Luther Vinson '
+  - 'Jillian Dowling '
+  - 'Melody Almond '
+  - 'Briony Wyatt '
+  - 'Aislinn Burns '
+  - 'Laurence Holding '
+  - 'Jad Kinney '
+  - 'Gabrielius Whelan '
+  - 'Arianne Hibbert '
+  - 'Soren Ferreira '
+  - 'Jeffrey Forster '
+  - 'Heidi Adkins '
+  - 'Phillip Harrison '
+  - 'Cristiano Martins '
+  - 'Elsie Henson '
+  - 'Chardonnay Montoya '
+  - 'Ellesha Cooper '
+  - 'Taylor Guevara '
+  - 'Sumaya Maxwell '
+  - 'Fionn Terry '
+  - 'Ruby Preece '
+  - 'Sadiyah Melia '
+  - 'Humairaa Chester '
+  - 'William Marriott '
+  - 'Jez Morley '
+  - 'Huxley Leach '
+  - 'Luc Yang '
+  - 'Lilly-Grace Lawrence '
+  - 'Millie-Mae Barry '
+  - 'Cayden Osborn '
+  - 'Ezra Thomas '
+  - 'Zi Driscoll '
+  - 'Brandon Boone '
+  - 'Dua Scott '
+  - 'Zackery Houghton '
+  - 'Kenan Weston '
+  - 'Kieron Galloway '
+  - 'Ritchie Plummer '
+  - 'Karol Mohamed '
+  - 'Shahzaib Malone '
+  - 'Tallulah Dorsey '
+  - 'Skyla Suarez '
+  - 'Bartosz Prentice '
+  - 'Arran Horn '
+  - 'Rhys Cottrell '
+  - Elizabeth Povey
+  - 'Kiera Keeling '
+  - 'Raya Gilbert '
+  - 'Romilly Mcfarland '
+  - 'Tayyab Orozco '
+  - 'Sidney Craft '
+  - 'Andrei Mcgill '
+  - 'Alanis Wolf '
+  - 'Warren Howells '
+  - 'Corinne Goodwin '
+  - 'Frances Archer '
+  - 'Cleo Weir '
+  - 'Lexie Mill '
+  - 'Sorcha Edge '
+  - 'Dhruv Blevins '
+  - 'Hussain Pennington '
+  - 'Harlee Landry '
+  - 'Thomas Blaese '
+  - 'Alyce Christian '
+  - 'Oliver Mckee '
+  - 'Sophia-Rose Correa '
+  - 'Lloyd Duggan '
+  - 'Abiha Walls '
+  - 'Blade Nicholls '
+  - 'Riley Crossley '
+  - 'Delia Fountain '
+  - 'Bret Mcfadden '
+  - 'Nafeesa Fleming '
+  - 'Ryker Marks '
+  - 'Kathryn Goldsmith '
+  - 'Jorja Naylor '
+  - 'Aleeza Paul '
+  - 'Nicholas Castillo '
+  - 'Hywel Nguyen '
+  - 'Huda Sweet '
+  - 'Homer Stanley '
+  - 'Beatriz Cash '
+  - 'Antonia Orr '
+  - 'Hallam Stevenson '
+  - 'Laurie Barber '
+  - Komal Salgado
+  buildings:
+  - ADNOC Headquarters
+  - Jin Mao Tower
+  - "Two International Finance Centre\r"
+  - 'Raffles City Chongqing T3N '
+  - 'The Torch '
+  - 'Golden Eagle Tiandi Tower B '
+  - 'NEVA TOWERS 2 '
+  - 'Bank of China Tower '
+  - 'CITIC Plaza '
+  - 'Suning Plaza Tower 1 '
+  - 'Minsheng Bank Building '
+  - 'Mercury City Tower '
+  - 'Nanning Logan Century 1 '
+  - '85 Sky Tower '
+  - 'One Shenzhen Bay Tower 7 '
+  - 'OKO - Residential Tower '
+  - 'Elite Residence '
+  - 'Tianjin Modern City Office Tower '
+  - 'Comcast Technology Center '
+  - Marina 101
+  locations:
+  - 'Baoji '
+  - 'Zaria '
+  - "Macap\xE1 "
+  - 'Orizaba '
+  - "Sancti Sp\xEDritus "
+  - 'Cuautla '
+  - 'Duitama '
+  - 'Barika '
+  - Brest
+  - "San Miguel de Tucum\xE1n "
+  - 'Hathras '
+  - 'Votkinsk '
+  - 'Godoy Cruz '
+  - 'Pittsburgh '
+  - 'Pennsylvania '
+  - 'Tampa '
+  - Florida
+  mercenaryNames:
+  - 'Martin '
+  - 'Reed '
+  - 'Rogers '
+  - 'Evans '
+  - 'Cook '
+  - 'Morris '
+  - 'Rivera '
+  - 'Perez '
+  - 'White '
+  - 'Bennett '
+  - 'Howard '
+  - 'Roberts '
+  - 'Kelly '
+  - 'Robinson '
+  - 'Washington '
+  - 'Morgan '
+  - 'Scott '
+  - 'Price '
+  - 'Barnes '
+  - 'Peterson '
+  - 'Ward '
+  - 'Jenkins '
+  - 'Lee '
+  - 'Cooper '
+  - 'Hernandez '
+  - 'Long '
+  - 'Harris '
+  - 'Ross '
+  - 'Walker '
+  - 'King '
+  - 'Parker '
+  - 'Moore '
+  - 'Davis '
+  - 'Edwards '
+  - 'Thompson '
+  - 'Jackson '
+  - 'Smith '
+  - 'Baker '
+  - 'Turner '
+  - 'Mitchell '
+  - 'Perry '
+  - 'Griffin '
+  - 'Adams '
+  - 'Watson '
+  - 'Murphy '
+  - 'Powell '
+  - 'James '
+  - 'Miller '
+  - 'Nelson '
+  - 'Simmons '
+  - 'Gonzalez '
+  - 'Alexander '
+  - 'Johnson '
+  - 'Wilson '
+  - 'Bell '
+  - 'Collins '
+  - 'Lewis '
+  - 'Phillips '
+  - 'Young '
+  - 'Gray '
+  - 'Clark '
+  - 'Martinez '
+  - 'Foster '
+  - 'Ramirez '
+  - 'Williams '
+  - 'Diaz '
+  - 'Patterson '
+  - 'Bailey '
+  - 'Brown '
+  - 'Henderson '
+  - 'Wright '
+  - 'Cox '
+  - 'Garcia '
+  - 'Sanchez '
+  - 'Anderson '
+  - 'Torres '
+  - 'Jones '
+  - 'Hall '
+  - 'Hughes '
+  - 'Gonzales '
+  - 'Campbell '
+  - 'Russell '
+  - 'Lopez '
+  - 'Coleman '
+  - 'Richardson '
+  - 'Wood '
+  - 'Stewart '
+  - 'Flores '
+  - 'Sanders '
+  - 'Rodriguez '
+  - 'Brooks '
+  - 'Thomas '
+  - 'Hill '
+  - 'Taylor '
+  - 'Green '
+  - 'Allen '
+  - 'Butler '
+  - 'Carter '
+  - 'Bryant '
+  - 'Johnny '
+  - 'Jeffrey '
+  - 'Ryan '
+  - 'Walter '
+  - 'John '
+  - 'Christopher '
+  - 'Ernest '
+  - 'Earl '
+  - 'Edward '
+  - 'Steve '
+  - 'Randy '
+  - 'Brandon '
+  - 'Justin '
+  - 'Adam '
+  - 'Jack '
+  - 'Bruce '
+  - 'Daniel '
+  - 'Arthur '
+  - 'Jesse '
+  - 'Benjamin '
+  - 'Mark '
+  - 'James '
+  - 'Gerald '
+  - 'Gary '
+  - 'Peter '
+  - 'Andrew '
+  - 'Gregory '
+  - 'Roy '
+  - 'Philip '
+  - 'Jeremy '
+  - 'Louis '
+  - 'Jimmy '
+  - 'Jason '
+  - 'Shawn '
+  - 'Willie '
+  - 'Thomas '
+  - 'Jonathan '
+  - 'Billy '
+  - 'Harry '
+  - 'Juan '
+  - 'Larry '
+  - 'George '
+  - 'Ralph '
+  - 'Charles '
+  - 'Fred '
+  - 'Nicholas '
+  - 'Michael '
+  - 'Ronald '
+  - 'Samuel '
+  - 'Scott '
+  - 'Robert '
+  - 'Terry '
+  - 'Roger '
+  - 'Steven '
+  - 'Kenneth '
+  - 'Albert '
+  - 'Alan '
+  - 'Russell '
+  - 'Joe '
+  - 'William '
+  - 'Aaron '
+  - 'Keith '
+  itemsJson: {fileID: 4900000, guid: 15a88bd0fef22ee46856586e755fa573, type: 3}
+  structersJson: {fileID: 4900000, guid: fd71c7bb95e442d4ab19c67e464b53d9, type: 3}

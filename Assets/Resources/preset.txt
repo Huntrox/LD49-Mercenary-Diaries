@@ -1,0 +1,9 @@
+Destroy #name#'s #building# in #location#,
+Kidnap #name#'s daughter and bring her to #location#,
+Kill #name# and their partners,
+Inflitrate #building# in #location# and assassinate #name#,
+Gather information about #name#'s illegal deals from #building#'s guards in #location#
+Assault #name#'s safe house in #location#
+Interrogate #name# and find about his boss' location 
+Demolish the secret shed located outside of #location# and destoy all evidence
+Liberate #name# from #building#'s prison located in #location#
